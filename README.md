@@ -25,19 +25,19 @@ And **voilá**! This should post the server count to the website's API, and it w
 
 ### Requesting user information from the website's API.
 ```swift
-boats.getUser(userID: exampleUserID) // This must be passed as UInt64
+boats.getUser(userID: (exampleUserID)!) // This must be passed as UInt64
 ``` 
 And **voilá**! This should return an JSON response with all the user details. In the occasion that it was not successful, a error message will be returned and you should be able to figure what went wrong.
 
 ### Requesting bot information from the website's API.
 ```swift
-boats.getBotInfo(botID: exampleBotID) // This must be passed as UInt64
+boats.getBotInfo(botID: (exampleBotID)!) // This must be passed as UInt64
 ``` 
 And **voilá**! This should return an JSON response with all the bot details. In the occasion that it was not successful, a error message will be returned and you should be able to figure what went wrong.
 
 ### Checking if a user voted for the bot
 ```swift
-boats.getUserVoted(botID: exampleBotID, userID: exampleUserID) // This must be passed as UInt64
+boats.getUserVoted(botID: (exampleBotID)!, userID: (exampleUserID)!) // This must be passed as UInt64
 ``` 
 And **voilá**! This should return an JSON response confirming if the user has voted or not. In the occasion that it was not successful, a error message will be returned and you should be able to figure what went wrong.
 
