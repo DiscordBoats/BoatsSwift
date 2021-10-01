@@ -8,7 +8,7 @@ In your `Package.swift` file, just add ```.package(url: "https://github.com/Disc
 
 ## How do I use the library? 
 
-The package is very simple. You just import the library, initalise the library with the API key, and call the methods to get relevant information.
+The package is very simple, you just import the library, initalise the library with the API key, and call the methods to get relevant information.
 
 ## Examples
 
