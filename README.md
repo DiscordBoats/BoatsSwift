@@ -1,3 +1,6 @@
+# DEPRECATED
+The website this module is for has shutdown.
+
 # BoatsSwift
 
 This is the official API library for [Discord Boats](https://discord.boats) in the programming language: Swift. 
